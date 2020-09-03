@@ -1,0 +1,68 @@
+/*  basic */
+
+
+body {
+	background: url('../images/background.jpg');
+}
+
+body {
+  background-image:url('images/background.jpg');
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.container {
+	width:600px;
+	margin: 100px auto;
+	border:0.5px solid black;
+	
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.intro{
+	background: white;
+	padding:40px;
+	line-height: 1.0
+	border-top:1px solid black;
+}
+
+.contact{
+	 background:#D9DCDC;
+	 padding: 30px;
+	 line-height: 1.0;
+}
+
+.left{
+	float:left;
+	margin: 0 25px 0 15px;
+}
+
+.right{
+	float:right;
+	margin: 0 15px 0 25px;
+
+}
+
+.footer{
+	text-align: center;
+	text-decoration: none;
+}
+
+.dic{
+	line-height: 0;
+}
